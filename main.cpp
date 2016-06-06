@@ -34,7 +34,7 @@ long readSensor() {
      pingPin.output();
      pingPin = 0;
      uBit.sleep(0.2);
-     pingPin = 1;
+     pingPin = 1; 
      uBit.sleep(0.5);
      pingPin = 0;
         
